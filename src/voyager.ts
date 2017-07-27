@@ -26,7 +26,7 @@ exports.handler = function (context, argv) {
 
   const port = parseInt(argv.port) || 7000;
   app.listen(port);
-  const listener = app.listen(() => {
+  const listener = app.listen(port, () => {
     let host = listener.address().address
     if (host === '::') {
       host = 'localhost'
