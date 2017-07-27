@@ -1,6 +1,6 @@
 {
   "name": "graphql-cli-voyager",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "GraphQL CLI Voyager plugin",
   "files": [
     "LICENSE",
