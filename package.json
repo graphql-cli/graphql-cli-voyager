@@ -1,0 +1,41 @@
+{
+  "name": "graphql-cli-voyager",
+  "version": "0.0.1",
+  "description": "GraphQL CLI Voyager plugin",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist/"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "npm run lint && tsc && ava tests/**/test.js --serial",
+    "lint": "tslint {src,test}/**/*.ts",
+    "start": "ts-node src/bin.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graphcool/graphql-cli-voyager.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/graphcool/graphql-cli-voyager/issues"
+  },
+  "homepage": "https://github.com/graphcool/graphql-cli-voyager#readme",
+  "devDependencies": {
+    "@types/graphql": "^0.10.0",
+    "@types/node": "^8.0.17",
+    "tslint": "^5.5.0",
+    "tslint-config-standard": "^6.0.1",
+    "typescript": "^2.2.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.6",
+    "graphql-cli": "^1.0.0-beta.1",
+    "graphql-voyager": "^1.0.0-rc.7",
+    "opn": "^5.1.0"
+  }
+}
