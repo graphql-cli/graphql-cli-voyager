@@ -25,7 +25,6 @@ exports.handler = function (context, argv) {
   app.use('/voyager', middleware({ endpointUrl: '/graphql' }))
 
   const port = parseInt(argv.port) || 7000;
-  app.listen(port);
   const listener = app.listen(port, () => {
     let host = listener.address().address
     if (host === '::') {
