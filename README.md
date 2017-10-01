@@ -1,5 +1,7 @@
 # graphql-cli-voyager
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/graphcool/graphql-cli-voyager.svg)](https://greenkeeper.io/)
+
 GraphQL Voyager plugin for [`graphql-cli`](https://github.com/graphcool/graphql-cli)
 
 ## Installation
