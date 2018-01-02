@@ -13,8 +13,9 @@ import * as graphqlHTTP from 'express-graphql'
 import * as opn from 'opn'
 import { buildSchema } from 'graphql'
 
-exports.handler = function (context, argv) {
-  const schema = buildSchema(context.getProjectConfig().getSchemaSDL());
+exports.handler = async function (context, argv) {
+  const config = await context.getProjectConfig()
+  const schema = buildSchema(config.getSchemaSDL())
 
   const app = express()
 
