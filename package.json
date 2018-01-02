@@ -25,11 +25,11 @@
   },
   "homepage": "https://github.com/graphcool/graphql-cli-voyager#readme",
   "devDependencies": {
-    "@types/graphql": "^0.10.0",
-    "@types/node": "^8.0.17",
-    "tslint": "^5.5.0",
-    "tslint-config-standard": "^6.0.1",
-    "typescript": "^2.2.0"
+    "@types/graphql": "0.10.2",
+    "@types/node": "8.5.2",
+    "tslint": "5.8.0",
+    "tslint-config-standard": "6.0.1",
+    "typescript": "2.6.2"
   },
   "dependencies": {
     "express": "^4.15.3",
