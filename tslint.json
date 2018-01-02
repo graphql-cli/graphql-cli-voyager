@@ -4,9 +4,12 @@
     "trailing-comma": [
       true,
       {
-        "multiline": "always",
+        "multiline": {
+          "typeLiterals": "never"
+        },
         "singleline": "never"
       }
-    ]
+    ],
+    "space-before-function-paren": false
   }
 }
