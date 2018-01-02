@@ -1,5 +1,8 @@
 # graphql-cli-voyager
 
+[![CircleCI](https://circleci.com/gh/graphql-cli/graphql-cli-voyager.svg?style=shield)](https://circleci.com/gh/graphql-cli/graphql-cli-voyager) [![npm version](https://badge.fury.io/js/graphql-cli-voyager.svg)](https://badge.fury.io/js/graphql-cli-voyager)
+
+
 GraphQL Voyager plugin for [`graphql-cli`](https://github.com/graphcool/graphql-cli)
 
 ## Installation
