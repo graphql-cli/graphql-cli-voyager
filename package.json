@@ -34,7 +34,7 @@
   "dependencies": {
     "express": "^4.15.3",
     "express-graphql": "^0.6.6",
-    "graphql-cli": "^2.0.0",
+    "graphql-cli": "^4.0.0",
     "graphql-voyager": "^1.0.0-rc.7",
     "opn": "^5.1.0"
   }
